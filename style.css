@@ -1,0 +1,26 @@
+body {
+    background: rgb(72, 134, 36);
+    place-items: center;
+}
+.drop-cap{
+    height: 400px;
+    width: 700px;
+    border: 4px solid white;
+    border-radius: 20px;
+    box-shadow: 0 0 15px 2px white, 0 0 15px 7px black;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    margin: 400px auto;
+    min-width: 900px;
+    color: white;
+}
+h1:first-letter {
+    font-size: 62px;
+    float: left;
+}
+h1 {
+    line-height: 35px;
+}
